@@ -1,5 +1,5 @@
 <template>
-  <div class="componentDetails">
+  <div class="componentDetails">11
     <div class="componentDetails-left" id="componentDetails-left">21
       <el-input :placeholder="$t('m.componentDetails16')" v-model="filterText"></el-input>
 
