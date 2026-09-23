@@ -1,6 +1,6 @@
 <template>
   <div class="componentDetails">
-    <div class="componentDetails-left" id="componentDetails-left">
+    <div class="componentDetails-left" id="componentDetails-left">21
       <el-input :placeholder="$t('m.componentDetails16')" v-model="filterText"></el-input>
 
       <el-tree class="filter-tree" :data="figureGroupTree" :props="defaultProps" :default-expand-all="false" :filter-node-method="filterNode" @node-click="handleNodeClick" :highlight-current="true" node-key="label" :default-expanded-keys="idArr" ref="tree2">
